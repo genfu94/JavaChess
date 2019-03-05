@@ -10,8 +10,8 @@ import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class MenuPanel extends JPanel {
 	ChessGame chessGameReference;
-	JButton undo=new JButton(new ImageIcon("undoImage.png"));
-	JButton redo=new JButton(new ImageIcon("redoImage.png"));
+	JButton undo=new JButton(new ImageIcon("Resources/Images/undoImage.png"));
+	JButton redo=new JButton(new ImageIcon("Resources/Images/redoImage.png"));
 	//JButton newGame=new JButton(new ImageIcon("newGame.png"));
 	
 	public MenuPanel(ChessGame game) {

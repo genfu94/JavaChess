@@ -8,14 +8,14 @@ public class ChessGameGraphics extends JFrame{
 	BoardGraphicPanel boardGraphic;
 	MoveHistoryGraphicPanel moveHistoryGraphicPanel;
 	private String[] position={
-		".k......",
+		"rnbqkbnr",
+		"pppppppp",
 		"........",
 		"........",
 		"........",
 		"........",
-		"....B...",
-		"..B.....",
-		".K......"
+		"PPPPPPPP",
+		"RNBQKBNR"
 	};
 	ChessGame game=new ChessGame(position);
 	

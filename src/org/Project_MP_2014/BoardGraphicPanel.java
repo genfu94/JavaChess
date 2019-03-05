@@ -136,20 +136,20 @@ public class BoardGraphicPanel extends JPanel{
 		Dimension preferredSize=new Dimension(_squareSize*_boardWidth+10,_squareSize*_boardHeight+10);
 		setPreferredSize(preferredSize);
 		try {
-			boardImg=ImageIO.read(new File("Chessboard.png"));
-			selectionImg=ImageIO.read(new File("Selection.png"));
-			whitePawn=ImageIO.read(new File("Pawn_white.png"));
-			blackPawn=ImageIO.read(new File("Pawn_black.png"));
-			whiteKnight=ImageIO.read(new File("Knight_white.png"));
-			blackKnight=ImageIO.read(new File("Knight_black.png"));
-			whiteBishop=ImageIO.read(new File("Bishop_white.png"));
-			blackBishop=ImageIO.read(new File("Bishop_black.png"));
-			whiteRock=ImageIO.read(new File("Rock_white.png"));
-			blackRock=ImageIO.read(new File("Rock_black.png"));
-			whiteQueen=ImageIO.read(new File("Queen_white.png"));
-			blackQueen=ImageIO.read(new File("Queen_black.png"));
-			whiteKing=ImageIO.read(new File("King_white.png"));
-			blackKing=ImageIO.read(new File("King_black.png"));
+			boardImg=ImageIO.read(new File("Resources/Images/Chessboard.png"));
+			selectionImg=ImageIO.read(new File("Resources/Images/Selection.png"));
+			whitePawn=ImageIO.read(new File("Resources/Images/Pawn_white.png"));
+			blackPawn=ImageIO.read(new File("Resources/Images/Pawn_black.png"));
+			whiteKnight=ImageIO.read(new File("Resources/Images/Knight_white.png"));
+			blackKnight=ImageIO.read(new File("Resources/Images/Knight_black.png"));
+			whiteBishop=ImageIO.read(new File("Resources/Images/Bishop_white.png"));
+			blackBishop=ImageIO.read(new File("Resources/Images/Bishop_black.png"));
+			whiteRock=ImageIO.read(new File("Resources/Images/Rock_white.png"));
+			blackRock=ImageIO.read(new File("Resources/Images/Rock_black.png"));
+			whiteQueen=ImageIO.read(new File("Resources/Images/Queen_white.png"));
+			blackQueen=ImageIO.read(new File("Resources/Images/Queen_black.png"));
+			whiteKing=ImageIO.read(new File("Resources/Images/King_white.png"));
+			blackKing=ImageIO.read(new File("Resources/Images/King_black.png"));
 			
 		}
 		catch(IOException e) {
